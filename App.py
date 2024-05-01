@@ -2,6 +2,17 @@ import streamlit as st
 from transformers import pipeline
 from newspaper import Article
 
+st.markdown(
+    """
+    <style>
+    .reportview-container {
+        background-color: #f0f0f0;  # Light gray
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 st.title("Article Summarizer")
 
 # Load the summarization pipeline
