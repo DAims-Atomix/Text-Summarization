@@ -7,6 +7,8 @@ pipe = pipeline('summarization', model='t5-small')
 # Create a text input for users to enter text
 #input_text = st.text_area("Enter text to summarize:", height=150)
 
+summary_type = st.radio("Summarize from:", ["Text Input", "URL"])
+
 if summary_type == "Text Input":
     input_text = st.text_area("Enter text to summarize:", height=150)
 elif summary_type == "URL":
