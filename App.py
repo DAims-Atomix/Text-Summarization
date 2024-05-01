@@ -11,7 +11,7 @@ summary_type = st.radio("Summarize from:", ["Text Input", "URL"])
 # Depending on the selection, create appropriate input fields
 if summary_type == "Text Input":
     input_text = st.text_area("Enter text to summarize:", height=150)
-    if input_text and st.button("Summarize"):
+    if st.button("Summarize"):
         # Add TL;DR to indicate summary
         query = input_text + "\nTL;DR:\n"
         # Summarize the text
