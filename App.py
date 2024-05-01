@@ -7,7 +7,7 @@ st.markdown(
     """
     <style>
     .reportview-container {
-        background-color: #f0f0f0;  # Light gray background
+        background-color: #032c40;  #
     }
     footer {
         visibility: hidden;  # Hide the default Streamlit footer
