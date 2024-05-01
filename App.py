@@ -2,7 +2,7 @@ import streamlit as st
 from transformers import pipeline
 
 # Load the summarization pipeline
-pipe = pipeline('summarization', model='google/pegasus-cnn_dailymail')
+pipe = pipeline('summarization', model='t5-small')
 
 # Create a text input for users to enter text
 input_text = st.text_area("Enter text to summarize:", height=150)
