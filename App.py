@@ -35,8 +35,8 @@ st.title("Article Summarizer")
 st.markdown(
     """
     <div class="custom-footer">
-        Aditya Vishal Tiwari   |   Padmendra Singh Yadav  |   Pranav Kumar  |  
-        Arunima Dolui  |   Nitish Kumar Ray  |   Projyoti Barik
+        <h4>Aditya Vishal Tiwari   |   Padmendra Singh Yadav  |   Pranav Kumar  |  
+        Arunima Dolui  |   Nitish Kumar Ray  |   Projyoti Barik</h4>
     </div>
     """,
     unsafe_allow_html=True,
