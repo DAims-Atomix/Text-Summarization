@@ -3,7 +3,44 @@ from transformers import pipeline
 from newspaper import Article
 
 
+st.markdown(
+    """
+    <style>
+    .reportview-container {
+        background-color: #f0f0f0;  # Light gray background
+    }
+    footer {
+        visibility: hidden;  # Hide the default Streamlit footer
+    }
+    .custom-footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #f0f0f0;
+        text-align: center;
+        padding: 10px;
+        font-size: 14px;
+        color: #333333;  # Dark gray text
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
+# Set the title at the top-left corner
 st.title("Article Summarizer")
+
+# Footer content with names
+st.markdown(
+    """
+    <div class="custom-footer">
+        Aditya Vishal Tiwari, Padmendra Singh Yadav, Pranav Kumar,
+        Arunima Dolui, Nitish Kumar Ray, Projyoti Barik
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
 
 # Load the summarization pipeline
 pipe = pipeline("summarization", model="t5-small")
