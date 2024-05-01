@@ -2,6 +2,8 @@ import streamlit as st
 from transformers import pipeline
 from newspaper import Article
 
+st.title("Article Summarizer")
+
 # Load the summarization pipeline
 pipe = pipeline("summarization", model="t5-small")
 
