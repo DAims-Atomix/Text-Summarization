@@ -17,11 +17,11 @@ st.markdown(
         left: 0;
         bottom: 0;
         width: 100%;
-        background-color: #f0f0f0;
+        background-color: #001f3f;  # Matte navy blue
         text-align: center;
         padding: 10px;
         font-size: 14px;
-        color: #333333;  # Dark gray text
+        color: #ffffff;  # White text for contrast
     }
     </style>
     """,
