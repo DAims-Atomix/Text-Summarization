@@ -19,13 +19,13 @@ To run this application locally, ensure you have Python and pip installed, then 
    git clone (https://github.com/DAims-Atomix/Text-Summarization.git)
    
 2. Install the required packages:
-   '''bash
+   ```bash
    pip install -r requirements.txt
 
 ##Usage
 To start the application, use Streamlit to run the script:
 
- '''bash
+ ```bash
  streamlit run app.py
  
 Once running, you can interact with the application through your web browser. You have two options for summarizing content:
