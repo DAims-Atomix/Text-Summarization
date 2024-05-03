@@ -27,7 +27,7 @@ To start the application, use Streamlit to run the script:
 
  ```bash
  streamlit run app.py
- 
+
 Once running, you can interact with the application through your web browser. You have two options for summarizing content:
 
 Text Input: Paste or type the text you want to summarize and click the "Summarize" button.
