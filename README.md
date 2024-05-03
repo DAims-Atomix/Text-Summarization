@@ -22,13 +22,10 @@ To run this application locally, ensure you have Python and pip installed, then 
 
 ## Usage
 To start the application, use Streamlit to run the script:
-
   ```bash
   streamlit run app.py
 
-
 Once running, you can interact with the application through your web browser. You have two options for summarizing content:
-
 Text Input: Paste or type the text you want to summarize and click the "Summarize" button.
 URL: Enter a URL to fetch the article content and click the "Fetch and Summarize" button.
 The summarized text will be displayed on the screen. If you encounter any errors, check your inputs and try again.
