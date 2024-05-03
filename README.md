@@ -16,26 +16,25 @@ To run this application locally, ensure you have Python and pip installed, then 
 
 1. Clone the repository:
    ```bash
-   git clone <YOUR_REPOSITORY_URL>
-   cd <YOUR_REPOSITORY_DIRECTORY>
+   git clone (https://github.com/DAims-Atomix/Text-Summarization.git)
    
-Install the required packages:
-bash
-Copy code
-pip install -r requirements.txt
-Usage
+2. Install the required packages:
+   '''bash
+   pip install -r requirements.txt
+
+##Usage
 To start the application, use Streamlit to run the script:
 
-bash
-Copy code
-streamlit run app.py
+ '''bash
+ streamlit run app.py
+ 
 Once running, you can interact with the application through your web browser. You have two options for summarizing content:
 
 Text Input: Paste or type the text you want to summarize and click the "Summarize" button.
 URL: Enter a URL to fetch the article content and click the "Fetch and Summarize" button.
 The summarized text will be displayed on the screen. If you encounter any errors, check your inputs and try again.
 
-Contributors
+##Contributors
 This project was developed by:
 
 Aditya Vishal Tiwari
@@ -46,5 +45,4 @@ Nitish Kumar Ray
 Projyoti Barik
 Feel free to contribute to this project by submitting pull requests or opening issues on GitHub.
 
-License
-This project is licensed under the MIT License. You are free to use, modify, and distribute this project in accordance with the license terms.
+
